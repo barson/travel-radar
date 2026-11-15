@@ -1,6 +1,7 @@
 name: Auto Update Travel Deals
 
 on:
+  workflow_dispatch:  # 讓網頁上直接出現手動執行的按鈕！
   schedule:
     - cron: '0 0 * * *' # 每天自動執行一次
 
